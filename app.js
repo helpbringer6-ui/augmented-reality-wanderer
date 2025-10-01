@@ -3,9 +3,9 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Willkommen bei der API für Augmented-Reality-Wanderer!');
+    res.send('Welcome to the API for Augmented Reality Hikers!');
 });
 
 app.listen(port, () => {
-    console.log(`Server läuft auf http://localhost:${port}`);
+    console.log(`Server is running at http://localhost:${port}`);
 });
