@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the AR Hikers API! Discover amazing augmented reality tools crafted to enhance your hiking adventures and immerse you in nature.');
+    res.send('Welcome to the AR Hikers API! Explore innovative augmented reality tools designed to enhance your hiking experiences.');
 });
 
 app.listen(port, () => {
