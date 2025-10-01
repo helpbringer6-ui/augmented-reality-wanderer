@@ -1,7 +1,7 @@
 {
   "name": "augmented-reality-wanderer",
   "version": "1.0.0",
-  "description": "Augmented Reality App für die Erkundung historischer Stätten.",
+  "description": "Augmented Reality App for exploring historical sites.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
